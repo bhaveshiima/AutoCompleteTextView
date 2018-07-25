@@ -12,10 +12,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var countryarr = resources.getStringArray(R.array.countryList)
+
+        // Single Selection [ START ]
         var countryAdepter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_single_choice, countryarr)
         acvt1.setAdapter(countryAdepter)
         acvt1.threshold = 1
+        // Single Selection [ END ]
 
+
+        // Multiple Selection [ START ]
+        var countryMultipleAdepter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_multiple_choice,countryarr)
+        acvt2.setAdapter(countryMultipleAdepter)
+        acvt2.threshold = 1
+        // Multiple Selection [ END ]
 
 
     }
