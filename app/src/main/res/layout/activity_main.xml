@@ -11,7 +11,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Auto Complete TextView Demo"
+        android:text="AutoCompleteTextView Demo"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="=========================="
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Value From XML File"
         android:textSize="22sp"
         />
 
@@ -25,7 +39,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Multiple Keywords"
+        android:text="=========================="
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Value From Kotlin File"
         android:textSize="22sp"
         />
 
@@ -33,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/acvt2"
-        android:hint="Select Multiple Country"
+        android:hint="Select Country From Kotlin File"
         />
 
 </LinearLayout>

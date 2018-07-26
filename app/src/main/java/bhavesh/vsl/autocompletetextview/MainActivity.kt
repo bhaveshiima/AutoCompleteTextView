@@ -20,11 +20,12 @@ class MainActivity : AppCompatActivity() {
         // Single Selection [ END ]
 
 
-        // Multiple Selection [ START ]
-        var countryMultipleAdepter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_multiple_choice,countryarr)
-        acvt2.setAdapter(countryMultipleAdepter)
+        // Selection From Kotlin File [ START ]
+        var CountryArr = arrayListOf("India","Indonasia","South Africa", "South","Japan","Jaimica", "Canada")
+        var countryArrAdepter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_multiple_choice,CountryArr)
+        acvt2.setAdapter(countryArrAdepter)
         acvt2.threshold = 1
-        // Multiple Selection [ END ]
+        //  From Kotlin File Selection [ END ]
 
 
     }
