@@ -28,5 +28,13 @@ class MainActivity : AppCompatActivity() {
         //  From Kotlin File Selection [ END ]
 
 
+        // Select Multiple Skills Selection [ START ]
+        var skillArr = resources.getStringArray(R.array.skillsList)
+        var skillAdapter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_single_choice, skillArr )
+        acSkill.setAdapter(skillAdapter)
+        acSkill.threshold = 1
+        // Select Multiple Skills Selection [ START ]
+
+
     }
 }

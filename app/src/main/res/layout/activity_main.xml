@@ -57,4 +57,30 @@
         android:hint="Select Country From Kotlin File"
         />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="=========================="
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Multiple Skills"
+        android:textSize="22sp"
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/acSkill"
+        android:hint="Select Skills You Have"
+        />
+
+
+
+
+
 </LinearLayout>
